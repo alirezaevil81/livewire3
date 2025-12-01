@@ -6,6 +6,8 @@ use Livewire\Component;
 
 class Create extends Component
 {
+    public $title;
+
     public function render()
     {
         return view('livewire.post.create');

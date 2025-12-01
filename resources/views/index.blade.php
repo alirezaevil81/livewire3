@@ -11,7 +11,10 @@
 <body>
 
 <h1>hi</h1>
-<livewire:post.create />
+@php
+$title = 'hi';
+@endphp
+<livewire:post.create :title="$title"/>
 
 @vite('resources/js/app.js')
 @livewireScripts
