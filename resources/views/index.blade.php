@@ -11,7 +11,7 @@
 <body>
 
 <h1>hi</h1>
-
+<livewire:post.create />
 
 @vite('resources/js/app.js')
 @livewireScripts
